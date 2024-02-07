@@ -54,6 +54,7 @@ int main(int argc, char *argv[])
     else
   {
     ROS_INFO("Successfully connected to %s.", can_device.c_str());
+    ROS_INFO("EVAN TEST!!!!!");
   }
 
   // initialize the bridge both ways.
